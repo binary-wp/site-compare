@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — unreleased
+## 0.1.0 — 2026-10-01
 
 - **Added:** Site Compare, extracted from `binary-wp/admin-guide` 0.12 (`src/Compare.php`). It now attaches with `SiteCompare::attach( $prefix, $args )` and plugs in only through the guide's public hooks: `booted`, `screens`, `viewer_actions`.
 - **Added:** `nav` and `viewer_button` args.
