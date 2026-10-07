@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 — 2026-10-07
+
+- **Changed:** works with `binary-wp/admin-guide` 0.14 as well as 0.13 (`^0.13 || ^0.14`). No code change; 0.14 kept the hooks this package uses (`booted`, `screens`, `viewer_actions`).
+
 ## 0.1.0 — 2026-10-01
 
 - **Added:** Site Compare, extracted from `binary-wp/admin-guide` 0.12 (`src/Compare.php`). It now attaches with `SiteCompare::attach( $prefix, $args )` and plugs in only through the guide's public hooks: `booted`, `screens`, `viewer_actions`.

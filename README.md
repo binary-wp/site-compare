@@ -45,7 +45,7 @@ Requirements for the interactive toolbar: `shell_exec` enabled, node, and a capt
 composer require binary-wp/site-compare
 ```
 
-Requires `binary-wp/admin-guide` ^0.13. The extension uses only the guide's public hooks
+Requires `binary-wp/admin-guide` ^0.13 or ^0.14. The extension uses only the guide's public hooks
 (`booted`, `screens`, `viewer_actions`), so it doubles as a worked example of an
 admin-guide extension.
 

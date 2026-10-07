@@ -3,7 +3,13 @@
     "description": "Site Compare for binary-wp/admin-guide: a source-vs-target full-page screenshot gallery with a sitemap URL scraper, for checking a WordPress migration page by page.",
     "type": "library",
     "license": "GPL-2.0-or-later",
-    "keywords": ["wordpress", "migration", "visual-regression", "screenshots", "admin-guide"],
+    "keywords": [
+        "wordpress",
+        "migration",
+        "visual-regression",
+        "screenshots",
+        "admin-guide"
+    ],
     "authors": [
         {
             "name": "BinaryWP",
@@ -12,7 +18,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "binary-wp/admin-guide": "^0.13"
+        "binary-wp/admin-guide": "^0.13 || ^0.14"
     },
     "autoload": {
         "psr-4": {
